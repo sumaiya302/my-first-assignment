@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+}
+/* hero section start */
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+#hero-section{
+    display: block;
+    margin: 30px auto 0 auto;
+    max-width: 1280px;
+    min-height: 560px;
+    background-color: #C6E4D6;
+    padding: 100px 80px;
+    border-radius: 10px;
+}
+.hero .hero-content h4{
+    color: #716D6D;
+    font-size: 24px;
+    font-weight: 500px;
+    padding: 30px 0 0 0;
+}
+.hero .hero-content h1{
+    color: #0E0E0E;
+    font-weight: 622;
+    font-size: 56px;
+    padding: 25px 0 35px 0 ;
+}
+.hero .hero-content button{
+    width: 270px;
+    height: 56px;
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px 34px;
+    border: none;
+    cursor: pointer;
+}
+.hero .hero-content button a{
+    font-size: 18px;
+    font-weight: 600px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.hero .hero-content button:hover{
+    transition: 0.5s;
+    background-color: #07382c;
+    border-radius: 0px;
+}
+
+/* vision section start */
+.vision{
+    width: 1280px;
+    display: block;
+    margin: 0 auto;
+}
+.vision > h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    padding: 50px 0 15px 0;
+}
+.vision > p{
+    color: rgb(14, 14, 14, 70%);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.vision .vision-cards{
+    display: flex;
+    gap: 20px;
+    margin: 30px 0 0 0;
+}
+.vision .vision-cards .card{
+    padding: 25px 20px;
+    border-radius: 16px;
+}
+.vision .vision-cards .card-1{
+    background-color: rgb(84, 144, 245, 20%);
+}
+.vision .vision-cards .card-2{
+    background-color: rgb(198, 228, 214, 100%);
+}
+.vision .vision-cards .card-3{
+    background-color: rgb(247, 235, 207, 100%);
+}
+.vision .card img{
+    max-width: 64px;
+    height: 64px;
+}
+.vision .card h3{
+    font-weight: 20px;
+    font-size: 1.2rem;
+    padding: 24px 0 12px 0;
+}
+.vision .card p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgb(14, 14, 14, 70%);
+} 
+.vision .vision-cards .card-1 button{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 15px;
+}
+.vision .vision-cards .card-2 button{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 38px;
+}
+.vision .vision-cards .card-3 button{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 38px;
+}
+.vision .card button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.vision .vision-cards .card-1 button{
+    background-color: #5490F5;
+}
+.vision .vision-cards .card-2 button{
+    background-color: #09A15C;
+}
+.vision .vision-cards .card-3 button{
+    background-color: #FFC239;
+}
+.vision .card button:hover{
+    background-color: #8C3AAA;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+/* quote section start */
+.quote{
+    display: block;
+    margin: 30px auto;
+    padding: 48px 24px;
+    max-width: 1280px;
+    background-color: #fff;
+    border-radius: 16px;
+}
