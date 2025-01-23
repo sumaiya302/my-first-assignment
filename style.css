@@ -150,9 +150,27 @@
 /* quote section start */
 .quote{
     display: block;
-    margin: 30px auto;
+    margin: 32px auto;
     padding: 48px 24px;
     max-width: 1280px;
-    background-color: #fff;
+    background-color: #ECECEC;
     border-radius: 16px;
+}
+.quote img{
+    width: 65px;
+    height: 65px;
+    margin-bottom: -40px;
+    /* background-size: cover; */
+}
+.quote h3{
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 18px 0 5px 0;
+    color: rgb(14, 14, 14, 80%)
+}
+.quote p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgb(14, 14, 14, 80%);
 }
