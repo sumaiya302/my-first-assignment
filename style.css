@@ -177,8 +177,10 @@
 /* news section start */
 .news{
     display: block;
-    margin: o auto;
-    width: 1240px;
+    margin: 32px auto;
+    width: 1280px;
+    padding: 48px 24px;
+    border-radius: 10px;
 }
 .news > h1{
     font-weight: 700;
@@ -190,11 +192,12 @@
     font-size: 1rem;
     line-height: 24px;
     padding-bottom: 32px;
+    color: rgb(14, 14, 14, 70%);
 }
 .news .news-card{
     display: flex;
     gap: 25px;
-    background-color: #ffffff;
+    background-color: #f9f9f9;
     border-radius: 24px;
     margin: 20px 0;
     padding: 48px;
@@ -229,7 +232,7 @@
     height: 41px;
     border: none;
     margin-top: 15px;
-    background-color: #09A15C;
+    background-color: #006A50;
     margin: 20px 0 0 0;
 }
 .news .news-card .news-card-content button a{
@@ -238,7 +241,7 @@
 }
 .news .news-card .news-card-content button:hover{
     border-radius: 0;
-    background-color: #006A50;
+    background-color: #09A15C;
     cursor: pointer;
     transition: 0.5s;
 }
