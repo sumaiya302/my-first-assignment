@@ -251,7 +251,6 @@
     width: 1280px;
     margin: 0 auto;
     padding: 20px 55px;
-    height: 464px;
 }
 .donate h1{
     font-size: 40px;
@@ -305,14 +304,12 @@
 .donate form input[type="text"]{
     width: 1024px;
     height: 64px;
-    background-color: #fff;
+    background: #fff;
     text-align: center;
     border: none;
     box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
-    margin: 20px o 20px o;
+    margin: 20px 0 32px 0;
     outline: none;
-    margin-top: 10px;
-    margin-bottom: 35px;
 }
 .donate form input[type="text"]::placeholder{
     color: rgba(14, 14, 14, 0.3);
@@ -331,10 +328,58 @@ input[type="submit"]{
     font-size: 18px;
     font-weight: 600px;
     text-align: center;
-    gap: 32px;
 }
-input[type="submit"]:hover {
+input[type="submit"]:hover { 
     background-color: #09A15C;
     border-radius: 0;
     transition: 0.5s;
+}
+/* Newsletter section start */
+.newsletter{
+    display: block;
+    margin: 100px auto 0 auto;
+    max-width: 1280px;
+    padding: 100px 80px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.newsletter h1{
+    font-size: 40px;
+    font-weight: 700px;
+    color: #0E0E0E;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+.newsletter p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(14, 14, 14, 70%);
+    line-height: 24px;
+    text-align: center;
+}
+.newsletter form{
+    text-align: center;
+    margin: 20px 0;
+}
+.newsletter form input[type="text"]{
+    font-weight: 400px;
+    font-size: 18px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+    margin: 0;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding-left: 25px;
+    width: 600px;
+    height: 55px;
+}
+.newsletter form input[type="text"]::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+}
+.newsletter input[type="submit"]{
+    border-radius: 0 8px 8px 0;
+    margin: 0 0 0 -20px;
+    width: 149px;
+    height: 57px;
 }
